@@ -19,9 +19,11 @@ public class MyLauncher extends Launcher implements VertxLifecycleHooks {
 	  );
 	*/
 	
+	/*
 	options.setTracingOptions(
 		new OpenTelemetryOptions()
 	);
+	*/
   }
 
 	public static void main(String[] args) {

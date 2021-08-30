@@ -36,7 +36,7 @@ public class MainVerticle extends AbstractVerticle {
 	  
 	  HttpRequest<Buffer> request = client.post(443, "notify-api.line.me", "/api/notify")
 	  .ssl(true)
-	  .bearerTokenAuthentication("kI6997Dj9akCblNhYGBIvzs46yTVydoiKYdwp0fAUYU");  
+	  .bearerTokenAuthentication("REPLACE WITH YOUR TOKEN");  
 	  
 	  request.putHeader("content-type", "application/x-www-form-urlencoded");
       request.putHeader("accept", "*/*");
